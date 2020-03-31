@@ -16,7 +16,6 @@
             </ul>
           </li>
         </ul>
-        <GitLink class="git" />
       </nav>
     </aside>
 </template>
@@ -124,7 +123,7 @@ export default {
   &--open {
     transform: translateX(0);
   }
-  
+
   .bright & {
     background: $sidebarBright;
     border-color: shade($sidebarBright, 10%);
@@ -209,5 +208,3 @@ ul {
   left: 0;
 }
 </style>
-
-
