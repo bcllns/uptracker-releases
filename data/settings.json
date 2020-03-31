@@ -3,7 +3,10 @@
     {
       "section": "Updates",
       "topics": [
-
+        {
+          "title": "March Update",
+          "slug": "first-post"
+        }
       ]
     }
   ]
