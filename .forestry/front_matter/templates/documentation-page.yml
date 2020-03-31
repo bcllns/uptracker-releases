@@ -14,8 +14,3 @@ fields:
 - type: text
   name: slug
   label: slug
-pages:
-- docs/Uptracker Updates/an-update.md
-- docs/editing-in-forestry.md
-- docs/my-first-documents.md
-- docs/test-documents.md
