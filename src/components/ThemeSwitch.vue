@@ -1,12 +1,12 @@
 <template>
-  <button id="themeSwitch" @click="toggleTheme()" aria-label="Switch theme between light and dark">
+  <!--<button id="themeSwitch" @click="toggleTheme()" aria-label="Switch theme between light and dark">
     <transition name="theme">
       <moon-icon v-if="theme == 'bright'" class="moon" />
     </transition>
     <transition name="theme">
       <sun-icon v-if="theme == 'dark'" class="sun" />
     </transition>
-  </button>
+  </button>-->
 </template>
 
 <script>
@@ -31,7 +31,7 @@ export default {
       if (process.isClient && localStorage.getItem('theme') === null) {
         localStorage.setItem('theme', 'bright')
         self.theme = 'bright'
-      } 
+      }
       if (process.isClient) {
         body.classList.add(localStorage.getItem('theme'))
         self.theme = localStorage.getItem('theme')
@@ -102,5 +102,3 @@ svg {
   opacity: 0;
 }
 </style>
-
-
