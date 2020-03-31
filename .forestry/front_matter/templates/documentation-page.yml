@@ -16,4 +16,5 @@ fields:
   label: slug
 pages:
 - docs/editing-in-forestry.md
+- docs/my-first-documents.md
 - docs/test-documents.md
