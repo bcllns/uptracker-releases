@@ -15,6 +15,7 @@ fields:
   name: slug
   label: slug
 pages:
+- docs/february-3-2020.md
 - docs/february-5-2020.md
 - docs/january-13-2020.md
 - docs/january-19-2020.md
