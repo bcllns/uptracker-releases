@@ -8,6 +8,6 @@ slug: february-5-2020
 
 ### Update
 
-Reports:  Order History Report - Email function doesn't make a request
+* Reports:  Order History Report - Email function doesn't make a request
 
 ### New
