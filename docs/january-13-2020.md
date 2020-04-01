@@ -25,3 +25,9 @@ slug: january-13-2020
 * Marketplace: On the final step of a custom product creation, make the view as tall possible so viewer can see more products on a screen
 * Orders: Change date on orders section to be 01/01/20 instead of 01/01/2020 so that the year is not cut off -- instead of truncating the date let's fix the column spacing so any date column is never shrunk
 * Orders: When you do a Bulk edit: disable the button and add spinner instead on click
+
+### New
+
+* Inventory: On the tile if the item is a Global Product, always show the "globe" icon.  If the item contains a variant that is in an inv group, also add a "box" icon.
+* Inventory: When a new group is being added, have the program check if the product exists in another inv. groups
+* Locations: Prevent deletion of the location if there is only one left
