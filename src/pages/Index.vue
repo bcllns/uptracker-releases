@@ -3,7 +3,7 @@
     <h1>
       Uptracker Updates
     </h1>
-     Some content.
+     Welcome to the UP-tracker progress report. Please select a date listed on the left to see more details on what is "fixed", "updated" and "new".
   </Layout>
 </template>
 
